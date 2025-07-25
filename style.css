@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap') ;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-left ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.nav-left ul li {
+    list-style: none;
+    text-align: center;
+
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.banner-content h1 {
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.banner-content p {
+    width: 340px;
+}
