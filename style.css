@@ -66,6 +66,8 @@
 .banner-content h1 {
     font-size: 65px;
     font-weight: bold;
+    text-align: center;
+
 }
 
 .banner-content p {
@@ -73,7 +75,65 @@
     margin-top: 10px;
     font-size: 22px;
     color:rgb(0, 0, 0, 50%);
+
 }
+.our-plants h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+  font-family: "Noto Serif", serif;
+  margin-bottom: 15px;
+}
+.our{
+    color:#E95A08 ;
+}
+.our-plants p{
+    font-family : "Inter", sans-serif;
+    margin: auto;
+    width: 776px;
+    text-align: center;
+    color: rgb(0, 0, 0 , 50%);
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.flower-name{
+    display: block;
+     font-family : "Inter", sans-serif;
+     font-size: 22px;
+     width: 260px;
+     text-align: center;
+     margin: 15px 0px 12px 0px;
+}
+.price{
+    display: block;
+    width: 260px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+     font-family : "Inter", sans-serif;
+     margin-bottom: 15px;
+}
+.primary-btn{
+    padding: 15px 88px;
+    font-weight: 600;
+    color:white;
+    background-color:#E95A08;
+    border:none ;
+    outline:none;
+    font-family : "Inter", sans-serif;;
+}
+.item img{
+    display: block;
+    
+}
+.Our-items{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 15px;
+}
+
+
+
 
 /* Media query for mobile devices */
 
