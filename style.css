@@ -131,6 +131,46 @@
     grid-template-columns: repeat(4 ,1fr);
     gap: 15px;
 }
+.plants-lover{
+    margin-top: 130px;
+    display: flex;
+    gap: 112px;
+}
+.plants-lover-left{
+    position:relative;
+}
+.trusted-badge{
+    position:absolute;
+    top: -113px;
+    right: -108px;
+  
+}
+
+
+.plants-lover-left img{
+    width: 540px;
+    height: 597px;
+}
+.trusted-badge img{
+    display: block;
+  height: 286px;
+    width: 286px;
+}
+.plants-lover-content{
+    margin-top: 60px;
+}
+
+.plants-lover-content h1{
+    font-weight: bold;
+    font-size: 50px;
+     font-family: "Noto Serif", serif;
+}
+.plants-lover-content ul  li{
+    margin-top: 20px;
+    font-size: 22px;
+    font-family : "Inter", sans-serif;
+    color: rgb(0, 0, 0,50%);
+}
 
 
 
