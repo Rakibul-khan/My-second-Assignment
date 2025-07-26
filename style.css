@@ -414,7 +414,7 @@
  }
 
   .banner-img img{
-    width: 706px;
+    width: 147%;
     display: block;
     margin-bottom: 20px;
     /* padding: 0px 20px; */
@@ -510,4 +510,27 @@
     margin-right: 148px;
 }
   
+}
+
+/* media query for laptops */
+@media screen and (min-width:1024px){
+    .navbar{
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
+    }
+    .join-section{
+        width: 104%;
+    }
+    .footer-logo{
+        margin-left:10px;
+    }
+    .footer{
+        margin-top: 30px;
+        gap: 5px;
+    }
+    .banner{
+        margin-left: 15px;
+    }
 }
