@@ -513,7 +513,7 @@
 }
 
 /* media query for laptops */
-@media screen and (min-width:1024px){
+/* @media screen and (min-width:1024px){
     .navbar{
         width: 100%;
     }
@@ -533,4 +533,4 @@
     .banner{
         margin-left: 15px;
     }
-}
+} */
